@@ -24,8 +24,8 @@ function($, util, array, layoutManager, Sprite) {
     var defaults = {
         images: null, // an array holding any pre-init included images
         dimensions: {
-            width: 400, // default canvas width
-            height: 400 // default canvas height
+            width: '100%', // default canvas width
+            height: '100%' // default canvas height
         }
     };
 
@@ -148,8 +148,8 @@ function($, util, array, layoutManager, Sprite) {
             layoutManager.trim(sprites, this.dimensions);
 
             this.$element.css({
-                width: this.dimensions.width + "px",
-                height: this.dimensions.height + "px"
+                width: this.dimensions.width,
+                height: this.dimensions.height
             });
         },
 

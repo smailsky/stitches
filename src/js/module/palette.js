@@ -54,7 +54,7 @@ function ($, util, Toolbar) {
         init: function () {
             this._super("init", this, arguments);
 
-            this.$element.toggleClass("in", this.visible);
+            this.$element.toggleClass("out", this.visible);
         },
 
         /**

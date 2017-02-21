@@ -198,7 +198,7 @@
             <!-- /.stitches-properties -->
 
             <!-- .stitches-about -->
-            <div class="stitches-palette stitches-about fade in">
+            <div class="stitches-palette stitches-about fade out">
                 <div class="stitches-palette-header">
                     <button type="button" class="close" data-action="close" title="Close">&times;</button>
                     <h4>About Stitches</h4>
